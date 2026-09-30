@@ -1,0 +1,6 @@
+# Only the finished public website is versioned.
+*
+!.gitignore
+!README.md
+!docs/
+!docs/**
