@@ -119,6 +119,7 @@ html:not(.sc-ready) .showreel-static-link{display:inline-flex}
 .faq-answers h3{font-size:clamp(19px,1.75vw,25px);line-height:1.2;margin-bottom:12px}
 .faq-answers p{font-size:14px;line-height:1.6;color:#344f5e}
 .faq-answers a{text-decoration:underline;text-underline-offset:3px}
+.web-service-link{grid-column:2;align-self:start}
 @media(max-width:700px){
  .service-page-link{font-size:12px;margin-top:16px}
  .faq-section{display:block;padding-block:62px 68px}
@@ -128,4 +129,5 @@ html:not(.sc-ready) .showreel-static-link{display:inline-flex}
  .faq-answers article{padding:17px 0 19px}
  .faq-answers h3{font-size:22px}
  .faq-answers p{font-size:14px}
+ .web-service-link{margin-top:22px}
 }
