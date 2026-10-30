@@ -105,3 +105,27 @@ footer>div{flex-wrap:wrap}
 }
 html:not(.sc-ready) .showreel-stage{position:relative;min-height:500px;height:100svh}
 html:not(.sc-ready) .showreel-static-link{display:inline-flex}
+
+/* Answer-first guidance and focused service links. */
+.service-page-link{font-size:13px;line-height:1.5;color:#344f5e;margin-top:20px}
+.service-page-link a{display:inline-flex;align-items:center;gap:8px;font-weight:700;text-decoration:underline;text-underline-offset:4px}
+.service-page-link a:hover{opacity:.72}
+.showreel-heading .service-page-link{color:var(--sc-ink-soft);font-size:12px}
+.faq-section{--sc-ink:#152b3b;--sc-ink-soft:#465f6b;--sc-accent:#6f5707;color:var(--sc-ink);background:var(--paper);padding-block:86px 94px;display:grid;grid-template-columns:.8fr 1.2fr;gap:8%;align-items:start}
+.faq-intro h2{font-size:clamp(45px,5.2vw,78px);margin-bottom:24px}
+.faq-intro>p{max-width:260px;color:var(--sc-ink-soft);font-size:15px}
+.faq-answers{display:grid;grid-template-columns:1fr 1fr;gap:0 34px}
+.faq-answers article{border-top:1px solid #8b9ba1;padding:20px 0 22px}
+.faq-answers h3{font-size:clamp(19px,1.75vw,25px);line-height:1.2;margin-bottom:12px}
+.faq-answers p{font-size:14px;line-height:1.6;color:#344f5e}
+.faq-answers a{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:700px){
+ .service-page-link{font-size:12px;margin-top:16px}
+ .faq-section{display:block;padding-block:62px 68px}
+ .faq-intro h2{font-size:46px;margin-bottom:18px}
+ .faq-intro>p{font-size:14px;margin-bottom:24px}
+ .faq-answers{display:block}
+ .faq-answers article{padding:17px 0 19px}
+ .faq-answers h3{font-size:22px}
+ .faq-answers p{font-size:14px}
+}
